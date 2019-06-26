@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Качи домашно</title>
+<meta http-equiv="X-UA-Compatible" content="IE">
+
+<meta chatset='UTF-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='author' content='Viktor Kolev'>
+<meta name='keywords' content='wesite, HTML, CSS'>
+
+<link href="https://bootswatch.com/paper/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+p.text123 {
+    background-color: lightgrey;
+    margin: 0 0 0 50px;
+    padding: 20px;
+} 
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Source1.html">Отлични домашни</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Napishimidomashnoto.html">Начало<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Домашни <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+            <li><a href="Source2.html">Математика</a></li>
+            <li><a href="Source3.html">Български език</a></li>
+            <li><a href="Source4.html">Английски език</a></li>
+	    <li class="divider"></li>
+            <li><a href="Source5.html">ИТ</a></li>
+            <li class="divider"></li>
+            <li><a href="Source6.html">Науки</a></li>
+          </ul>
+        </li>
+	<li><a href="Source7.html">Качи домашно</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Влез</legend>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Име</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Име">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Парола</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="******">
+        <div class="Checkbox">
+          <label>
+            <input type="checkbox"> Свободно ли да ти гепат домашното
+          </label>
+        </div>
+      </div>
+    </div> 
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">Домашно</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+        <span class="help-block">Добре изразено и четливо!!!</span>
+      </div>
+    </div>
+     <div class="form-group">
+      <label class="col-lg-2 control-label">Предмет</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            Математика
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Български език
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            Английски език
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            ИТ
+          </label>
+        </div>
+	<div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Науки
+          </label>
+        </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Откажи се</button>
+        <button type="submit" class="btn btn-primary">Изпрати</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</body>
+</html>
